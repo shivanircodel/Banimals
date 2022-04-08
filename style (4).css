@@ -1,0 +1,128 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ text-align: center;
+ background-color: darkseagreen; 
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: deeppink;
+}
+
+p {
+  color: rosybrown;
+  font-weight: bolder;
+  text-align: center;
+}
+
+p2 {
+  text-align: center;
+  color: maroon;
+  font-weight: bold;
+}
+/* STYLE IMAGES */
+img { 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+ }
+ div.polaroid {
+   width: 80%;
+   background-color: darkseagreen;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+ 
+/* STYLE NAV BAR */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 500px;
+  background-color: lightgreen
+}
+
+li a {
+  display: block;
+  color: lightslategray;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: deeppink;
+  color: black;
+}
+
+.active {
+  background-color: black;
+  color: lightseagreen;
+}
+
+ul {
+  border: 1px solid rosybrown;
+}
+
+li {
+  text-align: center;
+  border-bottom: 1px solid rosybrown;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+
+/* STYLE BUTTONS */
+
+/* ADD MORE! */
+/* Box Model */
+div {
+  width: 300px;
+  border: 15px rosybrown;
+  padding: 50px;
+  margin: 20px;
+}
+
+/* STYLE GENERATE A FACT KEY FEATURE */
+.genFact {
+  background: maroon;
+  border-radius: 10px;
+  border-style: none;
+
+  padding: 15px;
+
+  margin-top: 30px;
+  margin-left: 35%;
+  margin-right: 35%;
+
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 0.9em;
+  text-align: center;
+  line-height: 1.2em;
+  color: #0D38D3;
+}
+
+#fact {
+  border-style: none;
+
+  padding: 15px;
+
+  margin-top: 30px;
+  margin-left: 15%;
+  margin-right: 15%;
+
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 2em;
+  text-align: center;
+  line-height: 1.2em;
+  color: rosybrown;
+
+}
